@@ -22,7 +22,7 @@
     'category': 'wage',
     'version': '1.0',
     'depends': ['base', 'web_progress', 'hr', 'mail'],
-    'installable': True,
+    'installable': False,
     'application': False,
     'auto_install': False,
     'data': [
