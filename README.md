@@ -25,6 +25,13 @@
 pip3 install -r requirements.txt
 ```
 
+> **特别强调要在运行odoo的python3中安装依赖项**重要事情说三遍
+>
+> **特别强调要在运行odoo的python3中安装依赖项**重要事情说三遍
+>
+> **特别强调要在运行odoo的python3中安装依赖项**重要事情说三遍
+
+
 #### 安装方式，在应用列表中(先刷新模块列表)，搜索`dingding_base`应用，安装即可，安装完成后记得给用户设置权限，否则界面上没有图标
 
 ### 如何安装钉钉审批
@@ -48,7 +55,8 @@ pip3 install -r requirements.txt
 | odoo_interface_api          | 开放第三方接口（供小程序、其他应用调用使用）         |
 | odoo_performance_manage     | 绩效管理模块（可独立使用或配合钉钉使用、免费版）     |
 | odoo_wage_manage            | 薪酬管理模块（可独立使用或配合钉钉使用、免费版）     |
+| web_datepicker              | 第三方日期组件，日期格式为（xxxx年、xxxx年xx月）    |
 | web_progress                | 第三方进度条模块（自动依赖模块）                   |
-| ----------------- | ------------------------------------------------------ |
+| web_sms_manage              | 集成腾讯云、阿里云短信服务，登录、发送短信           |
 
 
